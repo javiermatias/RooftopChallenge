@@ -20,9 +20,22 @@ describe('Testing Check', () => {
   const blocks = ["f319", "3720", "4e3e", "46ec", "c7df", "c1c7", "80fd", "c4ea"];
   const blocksOrder = ["f319", "46ec", "c1c7", "3720", "c7df", "c4ea", "4e3e", "80fd"];
 
-  it('mock check', async () => {
+  it('Verifing check', async () => {
     expect(await check(blocks, token)).toEqual(blocksOrder);
   })
 
+  it('Error in fetch', async() => {
+    fetch.mockImplementationOnce(() => Promise.reject("API Failure"));  
+    expect(async() => {
+      expect.assertions(1);
+      try {
+        await check(blocks, token);
+      } catch (err) {
+        expect(err).toEqual({
+          error: 'Error verifing a valid block',
+        });
+      }
+    });
+  })
 });
 

@@ -6,7 +6,7 @@ btnExecute.onclick=async() => {
     try {
         
       paragraph.innerText="1. Requiriendo Token..";
-      const token = await getToken("juandlospalotes@gmail.com");
+      const token = await getToken("javierjimenez78@gmail.com");
       console.info("Token obtenido: " + token);
       paragraph.innerText="2. Obteniendo bloques..";
       const block = await getBlocks(token);
