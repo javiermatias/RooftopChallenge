@@ -1,0 +1,22 @@
+{
+  "name": "rooftopchallenge",
+  "version": "1.0.0",
+  "description": "Rooftop challenge",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiermatias/RooftopChallenge.git"
+  },
+  "author": "javier matias jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiermatias/RooftopChallenge/issues"
+  },
+  "homepage": "https://github.com/javiermatias/RooftopChallenge#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
