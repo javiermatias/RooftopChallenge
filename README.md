@@ -1,13 +1,34 @@
+<div id="top"></div>
+
 # RooftopChallenge
+
 Repositorio para el desafio de RoofTop
 
-El desafio esta hecho en JavaScript, el archivo challenge.js contiene la logica del programa, mientas index.html e index.js sirven para probar la logica.
+### Desarollado con
 
-Instrucciones para ejecutar. 
+* [Vanilla JavaScript] (https://www.javascript.com/)
+* [Libreria Testing Jest] (https://jestjs.io/)
+* El desafio esta hecho en JavaScript, el archivo challenge.js contiene la logica del programa, mientas index.html e index.js sirven para probar   el challenge
 
-1. Hacer un npm install, donde va instalar la libreria de testing jest. 
-2. Se puede probar el test de la función check usando npm test. 
-3. Para probar el challenge completo, se levanta el index.html en un server como por ejemplo el liveserver de vscode, y se se hace click en el boton ejecutar. En un parrafo va indicar como se va ejecutando el programa, y en la consola va ir imprimiendo los datos correspondientes.
+## Instrucciones
+
+### Prerequisitos
+
+Hacer un npm install
+* npm
+  ```sh
+  npm install
+  ```
+
+### Uso
+
+1. Para probar el test de la función check
+   ```sh
+   npm test
+   ```
+ 
+2. Para probar el challenge completo, levantar el index.html en un server como por ejemplo el liveserver de vscode, y despues se hace click en el boton ejecutar. 
+En un parrafo va indicar como se va ejecutando el programa, y en la consola va ir imprimiendo los datos correspondientes.
 
   
 
