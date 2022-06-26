@@ -1,7 +1,8 @@
 let paragraph = document.getElementById('result');
 let btnExecute = document.getElementById('execute');
 let email = document.getElementById('email');
-//main
+
+//main async
 btnExecute.onclick=async() => {
 
     try {
