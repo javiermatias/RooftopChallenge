@@ -1,12 +1,13 @@
 let paragraph = document.getElementById('result');
 let btnExecute = document.getElementById('execute');
+let email = document.getElementById('email');
 //main
 btnExecute.onclick=async() => {
 
     try {
         
       paragraph.innerText="1. Requiriendo Token..";
-      const token = await getToken("javierjimenez78@gmail.com");
+      const token = await getToken(email.value);
       console.info("Token obtenido: " + token);
       paragraph.innerText="2. Obteniendo bloques..";
       const block = await getBlocks(token);

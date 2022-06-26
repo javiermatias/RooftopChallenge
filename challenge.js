@@ -79,8 +79,8 @@ async function check(blocks = [], token = '') {
         }
       }
     }
-  } catch (error) {
-    throw new Error(`Error in function check: ${error.message || error}`);
+  } catch (ex) {
+    throw ex;
   }
 
   return blocks;
