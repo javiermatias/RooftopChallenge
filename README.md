@@ -27,7 +27,7 @@ Hacer un npm install
    npm test
    ```
  
-2. Para probar el challenge completo, levantar el index.html en un server como por ejemplo el liveserver de vscode, y despues se hace click en el boton ejecutar. 
+2. Para probar el challenge completo, levantar el index.html en un server como por ejemplo el liveserver de vscode, se coloca el email en el input y despues se hace click en el boton ejecutar. 
 En un parrafo va indicar como se va ejecutando el programa, y en la consola va ir imprimiendo los datos correspondientes.
 
   
