@@ -24,9 +24,9 @@ describe('Testing Check', () => {
     expect(await check(blocks, token)).toEqual(blocksOrder);
   })
 
-  it('Error in fetch', async() => {
-    fetch.mockImplementationOnce(() => Promise.reject("API Failure"));  
-    expect(async() => {
+  it('Error in fetch', async () => {
+    fetch.mockImplementationOnce(() => Promise.reject("API Failure"));
+    expect(async () => {
       expect.assertions(1);
       try {
         await check(blocks, token);
